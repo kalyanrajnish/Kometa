@@ -1,9 +1,9 @@
 templates:
   audience_score:
     default:
-      horizontal_offset: 56
+      horizontal_offset: 60
       horizontal_align: right
-      vertical_offset: 56
+      vertical_offset: 60
       vertical_align: bottom
     conditionals:
       audience_rating.gte:
@@ -56,4 +56,5 @@ overlays:
   audience_score_low:
     variables: { key: audience_score_low, weight: 300, group: score }
     template: [ name: audience_score ]
+
 
